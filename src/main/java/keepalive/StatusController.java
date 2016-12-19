@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class StatusController {
 	
 	@RequestMapping(value = "/status")
-	public String healthCheck() {
-		return "Application is running.";
+	public String healthCheck() {		
+		return "Application is running keepalive on the following hosts: " + System.getenv("hosts");
 	}
 	
 
