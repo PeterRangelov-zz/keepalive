@@ -1,9 +1,7 @@
 package keepalive;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.slf4j.Logger;
@@ -32,5 +30,5 @@ public class PingTask {
     	
     }
     
-    
+   
 }
